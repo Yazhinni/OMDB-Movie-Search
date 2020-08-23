@@ -1,0 +1,49 @@
+body{
+    margin:0; 
+    top:0;
+}
+
+.site {
+   height: 100%;
+    width: 100%;
+    position: absolute;
+    background-image: url('C:\Users\Yazhinni\Downloads\bac.jpg');
+    background-repeat: repeat;
+    opacity: 0.3;
+    background-attachment: inherit;
+}
+
+.container {
+    margin: 0 auto;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    color: orange;
+    font-size: x-large;
+    z-index: 10;
+}
+
+.row{
+    border-top: 1px solid tomato;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.form-group{
+    padding-right: 35%;
+}
+
+.form-group .input-group .form-control {
+    position: relative;
+    z-index: 2;
+    margin-bottom: 0;
+    width: 250%;
+    border-radius: 4px;
+}
+
+.form-group .input-group .input-group-append #button-addon2 {
+    position: absolute;
+}
+
+
